@@ -22,5 +22,6 @@ public class MyRunnable implements Runnable{
             }
             this.spentMilliseconds += 100;
         }
+        System.out.println("Interrupted");
     }
 }

@@ -16,7 +16,6 @@ public class Main {
             if(runnable.getSpentMilliseconds()>=2000)
             {
                 runnable.setNeedToStop(true);
-                System.out.println("Interrupted");
                 break;
             }
         }
